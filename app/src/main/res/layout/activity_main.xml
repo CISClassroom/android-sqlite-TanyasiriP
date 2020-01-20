@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="24dp"
+    android:layout_marginTop="24dp"
     android:layout_marginRight="24dp"
+    android:layout_marginBottom="24dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -38,9 +40,28 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="130dp"
         android:text="TextView"
         tools:layout_editor_absoluteX="18dp"
         tools:layout_editor_absoluteY="87dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
 
 </LinearLayout>
